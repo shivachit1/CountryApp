@@ -1,0 +1,89 @@
+.cart{
+    width:35px;
+    height:35px;
+    color: white;
+    position: absolute;
+    right:15px;
+    top:8px;
+    display: flex;
+    justify-content: center;
+    outline:none;
+    align-items: center;
+}
+
+.icon{
+    width: 40px;
+    height: auto;
+    padding:4px;
+    border:1px solid rgb(202, 197, 197);
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 0px 1px 1px rgba(228, 220, 220, 0.974);
+    cursor: pointer;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    z-index:0;
+  }
+
+.cart span{
+    position: absolute;
+    float: right;
+    padding: 2px 4px 2px 4px;
+    border-radius: 10px;
+    right: -8px;
+    top:-6px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.cartView{
+    width: 280px;
+    position: absolute;
+    height: 100vh;
+    top:0px;
+    right:0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 11;
+    color: white;
+}
+
+.header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span{
+    margin-left:10px;
+    margin-right:10px;
+}
+.cart-items-container{
+    padding:2px;
+}
+.cartItem{
+    margin: 8px;
+    padding:8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 2px rgba(228, 220, 220, 0.192);
+}
+.image{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.react-icon{
+    width: 25px;
+    height:25px;
+    cursor: pointer;
+}

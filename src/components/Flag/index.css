@@ -1,0 +1,11 @@
+.img{
+}
+.img::after{
+    content: '';
+    position: absolute;
+}
+svg{
+    width: 0;
+    height: 0;
+    padding: auto;
+}

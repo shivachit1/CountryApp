@@ -1,0 +1,13 @@
+.theme{
+    position: absolute;
+    right:75px;
+    top:0px;
+    text-align: center;
+    color: white;
+}
+
+.theme select{
+    color: white;
+    margin:10px;
+    border: 1px solid white;
+}

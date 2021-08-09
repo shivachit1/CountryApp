@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+}
+
+.fixed-nav{
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 10;
+}
+
+.filters-div{
+  position: fixed;
+  top:50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  z-index:2;
+}
+
+.link{
+  text-decoration: none;
+  width: fit-content;
+}
+h3{
+  padding:15px;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover{
+  transform: scale(1.1)
+}
+
+.react-icon:hover{
+  transform: scale(1.2)
+}
